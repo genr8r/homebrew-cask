@@ -7,6 +7,8 @@ cask 'scribus' do
   appcast 'https://sourceforge.net/projects/scribus/rss?path=/scribus'
   name 'Scribus'
   homepage 'https://www.scribus.net/'
+  
+  depends_on formula: 'ghostscript'
 
   app 'Scribus.app'
 end
